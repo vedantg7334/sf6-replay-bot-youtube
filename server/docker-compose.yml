@@ -1,0 +1,8 @@
+services:
+  sf6-bot:
+    build: .
+    container_name: sf6-bot
+    restart: unless-stopped
+    # host: required for the Wake-on-LAN broadcast and for the VPN interface
+    network_mode: host
+    env_file: .env

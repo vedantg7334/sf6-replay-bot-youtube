@@ -1,0 +1,45 @@
+{
+  "_comment": "Copy this file to config.json and adjust the values. This is the YouTube-only variant: sync to a server is off by default. config.json must NOT be committed: it holds the OBS password and YouTube secrets.",
+
+  "queue_file": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Street Fighter 6\\reframework\\data\\replay_queue.json",
+  "obs_exe": "C:\\Program Files\\obs-studio\\bin\\64bit\\obs64.exe",
+  "watcher_script": "C:\\sf6\\replayobs.py",
+  "log_file": "C:\\sf6\\agent.log",
+
+  "rec_dir": "C:\\Users\\NAME\\Videos",
+  "sent_subdir": "sent",
+  "video_ext": [".mp4", ".mkv", ".mov", ".flv"],
+
+  "obs_websocket": {
+    "host": "localhost",
+    "port": 4455,
+    "password": "YOUR_OBS_WEBSOCKET_PASSWORD"
+  },
+
+  "recording": {
+    "max_seconds": 600,
+    "heartbeat_timeout_sec": 8,
+    "heartbeat_grace_sec": 15
+  },
+
+  "sync": {
+    "enabled": false,
+    "ssh_key": "~\\.ssh\\sf6sync",
+    "destination": "user@server",
+    "remote_dir": "/path/on/the/server/sf6replays"
+  },
+
+  "youtube": {
+    "enabled": true,
+    "client_secret": "C:\\sf6\\yt_client_secret.json",
+    "token_file": "C:\\sf6\\yt_token.json",
+    "privacy": "private",
+    "uploaded_subdir": "uploaded"
+  },
+
+  "steam_appid": "1364780",
+  "obs_startup_wait_sec": 15,
+
+  "bind": "127.0.0.1",
+  "port": 8770
+}

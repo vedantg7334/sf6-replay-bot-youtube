@@ -1,0 +1,12 @@
+@echo off
+REM Copy this file into the Startup folder (Win+R -> shell:startup)
+REM and rename it to sf6-agent.bat, fixing the path to pythonw.exe.
+REM
+REM IMPORTANT: use the REAL interpreter, NOT the Microsoft Store alias stub.
+REM The stub lives under ...\WindowsApps\pythonw.exe and does nothing useful:
+REM the agent will appear to start but silently never listen. Real paths look
+REM like C:\Users\NAME\AppData\Local\Python\pythoncore-3.x-64\pythonw.exe or
+REM C:\Users\NAME\AppData\Local\Programs\Python\Python3xx\pythonw.exe
+REM To find the real one:  python -c "import sys; print(sys.executable)"
+REM (if that itself prints a WindowsApps path, install python.org and retry)
+start "" "C:\Users\NAME\AppData\Local\Python\pythoncore-3.14-64\pythonw.exe" "C:\sf6\agent.py"
