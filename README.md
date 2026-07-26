@@ -1,5 +1,8 @@
 # SF6 Replay Bot (YouTube-only)
 
+DISCLAIMER: THIS IS FULLY VIBE CODED. I'm not a programmer. I'm aware the code is not great. 
+I just hope this can be useful to somebody. it works for me.
+
 End-to-end automation for Street Fighter 6 replays: one Telegram command wakes the PC,
 records the replays by ID with OBS, and uploads them to YouTube titled with the players'
 nicknames and the replay ID. Uses REFramework to drive the game from the inside.
