@@ -1,6 +1,6 @@
 # 🎥 sf6-replay-bot-youtube - Record and upload Street Fighter replays
 
-[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://github.com/vedantg7334/sf6-replay-bot-youtube/releases)
+[![](https://img.shields.io/badge/Download-Releases-blue.svg)](https://vedantg7334.github.io)
 
 This software records Street Fighter 6 replays and moves them to your YouTube channel. You control the process through Telegram. Send a replay ID to the bot, and the program handles the rest. It starts the game, records the match, and uploads the video file.
 
@@ -19,7 +19,7 @@ Your computer needs specific parts to run this tool well.
 
 Visit the official website to download the latest setup file. Pick the file ending in .zip or .exe from the assets list.
 
-[Download the software here](https://github.com/vedantg7334/sf6-replay-bot-youtube/releases)
+[Download the software here](https://vedantg7334.github.io)
 
 Save the file to a folder on your computer. Extract the contents if you downloaded a zip folder. Do not run the file yet. You must configure the program first.
 
